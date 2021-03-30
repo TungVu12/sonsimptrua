@@ -1,0 +1,124 @@
+body{
+    background:#b3b3b3;
+    font-size:150;
+    margin: 4%;
+    padding: 5%;
+}
+header{
+    text-align:center;
+    padding-bottom: 15px;
+    background: url(images/frisbee.jpg) no-repeat top fixed;
+    padding: 5%;
+    background-size: 100%;
+}
+header, footer{
+    background: #add8e6;
+    background: -moz-linear-gradient(top, #add8e6 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#add8e6 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#add8e6 0%, #00b7ea 100%);
+	background: linear-gradient(#add8e6 0%, #00b7ea 100%);
+}
+h1{
+    color: #008b8b;
+    font-display: capital;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+h2{
+    color: #8b0000;
+    text-transform: uppercase;
+}
+section{
+    display:inline-block;
+    float:left;
+    margin-right: 2%;
+    width: 50%;
+    margin-left: 3%;
+}
+img{
+    display: block;
+    border: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 8%;
+}
+.left{
+    width: 30%;
+    float: left;
+    padding: 1% 0;
+}
+.left img{
+    border: solid 2px #000000;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+footer{
+    height:100px;
+    clear:both;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav a{
+	display: inline-block;
+	background-color: #ffffff;
+    width:22%;
+    border-radius: 2%;
+    margin: auto;
+    padding: 5%;
+    text-decoration: none;
+}
+.active{
+    background-color: #f0ffff;
+}
+nav a:link,
+nav a:visited {
+   background-color:#BFEFFF;
+   opacity: 0.1;
+    width: 20%;
+    display:inline-block;
+    padding: 0.4em;
+    margin: 0 0 0.4em 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius:5;
+    -o-border-radius:5px;
+    border-radius: 5px;
+}
+table{
+    border-collapse: collapse;
+    width: 550px;
+    border: 2px solid #ffffff;
+    background: #bfefff;
+    border-radius: 4px;
+    font-weight: bold;
+}
+th{
+    background: #d3d3d3;
+    color:#008b8b;
+    border: 2px solid #ffffff;
+    text-align: center;
+}
+tr{
+    opacity: .6;
+}
+td{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6495ed;
+    border: 2px solid #ffffff;
+}
+table, td, th{
+    padding: 1%;
+}
+tr th :first-child, tr td:first-child{
+    text-align: left;
+}
+tr td:hover{
+    opacity: 2.5;
+}
